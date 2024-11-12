@@ -1,6 +1,5 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
-
 # Proximal Policy Optimization (PPO) 简介及其在 CartPole 环境中的实现
 
 ## 目录
@@ -48,7 +47,7 @@ $$
 此外，为了引入更多的探索，此处还增加了熵损失项。通过增加目标熵的大小，我们可以认为显式的增大了策略进行其他探索的可能性。具体来讲，我们通过最大化以下目标函数来更新策略参数：
 
 $$
-L^{\text{S}}(\theta) = \mathbb{E}\left[ H(\pi_{\theta_{\text{}}}(|s_{t})) \right]
+L^{\text{S}}(\theta) = \mathbb{E}\left[ H(\pi_{\theta_{\text{}}}(·|s_{t})) \right]
 $$
 
 其中$\pi_\theta(·|s)$ 是当前策略。
