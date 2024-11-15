@@ -13,4 +13,4 @@ This repo aims to provide you with a simple implementation of all kinds of basic
 
 # Future Work
 
-I am a phd student in SJTU, MIFA lab，Jointly cultivated with Beijing Institute of General Artificial Intelligence. Due to the limited time, I will add more algorithms in the future. If you have any suggestions, please feel free to open an issue or submit a PR.
+Due to the limited time, I will add more algorithms in the future. If you have any suggestions, please feel free to open an issue or submit a PR.
